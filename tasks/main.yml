@@ -1,2 +1,10 @@
 ---
 # tasks file for sys_motd
+
+- name: Deliver motd file
+  template:
+    src: motd.j2
+    dest: /etc/motd
+    owner: root
+    group: root
+    mode: 0444

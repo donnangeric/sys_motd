@@ -1,2 +1,3 @@
 ---
 # defaults file for sys_motd
+system_owner: sysadmin@ds4u.com
